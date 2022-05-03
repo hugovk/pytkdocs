@@ -4,6 +4,7 @@ This module is responsible for loading the documentation from Python objects.
 It uses [`inspect`](https://docs.python.org/3/library/inspect.html) for introspecting objects,
 iterating over their members, etc.
 """
+from __future__ import annotations
 
 import importlib
 import inspect
